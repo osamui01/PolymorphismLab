@@ -1,0 +1,73 @@
+<mxfile host="app.diagrams.net" modified="2024-02-13T19:58:56.930Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/121.0.0.0 Safari/537.36" etag="vqZGdb2Mw7LaYkbKzhxk" version="23.1.2" type="device">
+  <diagram name="Page-1" id="n_ZI6amrMEXRUnFNO867">
+    <mxGraphModel dx="1272" dy="1989" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-1" value="Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="180" width="330" height="342" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-6" value="String name" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="26" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-29" value="boolean publicTravel" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="56" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-42" value="int maxOccupancy" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="86" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-41" value="int numberOfWheels" style="text;strokeColor=none;fillColor=none;align=center;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="112" width="330" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-47" value="int price" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="138" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-3" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="168" width="330" height="114" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-48" value="addvehicle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="282" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-46" value="findStockAmount" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-1">
+          <mxGeometry y="312" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-7" value="Dealership" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="260" y="-20" width="330" height="176" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-15" value="ArrayList&amp;lt;Vehicle&amp;gt; vehicles;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-7">
+          <mxGeometry y="26" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-10" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-7">
+          <mxGeometry y="56" width="330" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-23" value="getVehicle" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-7">
+          <mxGeometry y="116" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-24" value="isVehicleInStock" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-7">
+          <mxGeometry y="146" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-31" value="RangeRover extends Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="540" width="330" height="146" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-34" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-31">
+          <mxGeometry y="26" width="330" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-49" value="addPaintJob" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-31">
+          <mxGeometry y="116" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-35" value="Helicopter extends Vehicle" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="429" y="540" width="330" height="144" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-38" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-35">
+          <mxGeometry y="26" width="330" height="88" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-50" value="addEngineSize" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="Mt2BOumSukJUg7NSoRT1-35">
+          <mxGeometry y="114" width="330" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="Mt2BOumSukJUg7NSoRT1-51" value="String travelMedium" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="355" y="358" width="130" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
